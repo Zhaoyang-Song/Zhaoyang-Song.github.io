@@ -29,7 +29,7 @@ National-level Project, Excellent Final Project, Project ID: 202110610196 (**PI*
 College-level Project (**Participant**, 12/2020 - 12/2021)
 
 # Research Skills
-- **Programming language**: Python, Matlab, C, C++, Julia, R
+- **Programming Language**: Python, Matlab, C, C++, Julia, R
 - **Simulation**: COMSOL Multiphysic
 - **Research Tool**: $\LaTeX$, Adobe Illustrator
 
