@@ -20,13 +20,13 @@ Education
 
 # Research Grants
 
-- **Program**: “Desalination of shale gas flowback and produced water by solar-driven interfacial evaporation technology”
-	**Funding Source**: National Innovation and Entrepreneurship Training Program for College Students
-	National-level Project, Excellent Final Project, Project ID: 202110610196 (PI, 12/2020 - 12/2021)
-	
-- **Program**: “Studies of the Pauli exclusion principle violation experiments and an experimental design in the China Jinping underground laboratory”
-	**Funding Source**: National Innovation and Entrepreneurship Training Program for College Students
-	College-level Project (Participant, 12/2020 - 12/2021)
+- **Program**: “Desalination of shale gas flowback and produced water by solar-driven interfacial evaporation technology”<br />
+**Funding Source**: National Innovation and Entrepreneurship Training Program for College Students<br />
+National-level Project, Excellent Final Project, Project ID: 202110610196 (PI, 12/2020 - 12/2021)
+
+- **Program**: “Studies of the Pauli exclusion principle violation experiments and an experimental design in the China Jinping underground laboratory”<br />
+**Funding Source**: National Innovation and Entrepreneurship Training Program for College Students<br />
+College-level Project (Participant, 12/2020 - 12/2021)
 
 # Research Skills
 - **Programming language**: Python, Matlab, C, C++, Julia, R
