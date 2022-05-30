@@ -1,5 +1,7 @@
 ---
 layout: archive
+title: "Publications"
+show_title: false
 permalink: /publications/
 author_profile: false
 ---
