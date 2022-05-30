@@ -1,7 +1,5 @@
 ---
 layout: archive
-title: "CV"
-show_title: false
 permalink: /cv/
 author_profile: false
 redirect_from:
