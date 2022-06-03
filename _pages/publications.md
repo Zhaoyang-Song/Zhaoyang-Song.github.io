@@ -11,11 +11,12 @@ author_profile: false
 1. **Zhaoyang Song**; Alberto Tiraferri; Ruihong Yuan; Jinzhi Cao; Peng Tang; Wancen Xie; John C. Crittenden; Baicang Liu\*, <font color="#FF4858">Theoretical evaluation of the evaporation rate of solar-driven interfacial evaporation and of its large-scale application potential</font>. *Desalination*, Accepted.
 
 <center>
-<video controls width="80%" height="80%">
+<video controls width="78%" height="78%">
     <source src="/video/Global Evaporation Prediction Based on 2D SIE Technology.mp4"/>
     Sorry, your browser does not support this video, please use Chrome instead.
 </video>
 </center>
+
 
 
 
