@@ -9,40 +9,68 @@
 	<link href="style/css/custom.css" rel="stylesheet" type="text/css" />
 	<!-- 下面是回到顶部组件的样式设置 -->
 	<style>
-    .box{
-        position:fixed;
-        right:10px;
-        bottom:15px;
-        height:40px;
-        width: 40px;    
-        text-align:center;
-        z-index:999;
-        padding-top:20px;    
-        background-color: #337AB7;
-        opacity:0.4;
-        border-radius: 40%;
-        overflow: hidden;
-    }
-    .box:hover:before{
-        top:50%
-    }
-    .box-in{
-        visibility: visible;
-        display:inline-block;
-        height:28px;
-        width: 28px;
-        border: 3.4px solid black;
-        border-color: white transparent transparent white;
-        transform:rotate(45deg);
-    }
-    </style>
+	    .box{
+		position:fixed;
+		right:10px;
+		bottom:15px;
+		height:40px;
+		width: 40px;    
+		text-align:center;
+		z-index:999;
+		padding-top:20px;    
+		background-color: #337AB7;
+		opacity:0.4;
+		border-radius: 40%;
+		overflow: hidden;
+	    }
+	    .box:hover:before{
+		top:50%
+	    }
+	    .box-in{
+		visibility: visible;
+		display:inline-block;
+		height:28px;
+		width: 28px;
+		border: 3.4px solid black;
+		border-color: white transparent transparent white;
+		transform:rotate(45deg);
+	    }
+	</style>
+	<!-- 回到顶部组件样式设置结束 -->
 </head>
 <body>
 
+    <!-- 下面是回到顶部组件 -->
+    <div id="box" class="box">
+        <div class="box-in"></div>
+    </div>    
+    <script>
+    var timer  = null;
+    box.onclick = function(){
+        cancelAnimationFrame(timer);
+        //获取当前毫秒数
+        var startTime = +new Date();     
+        //获取当前页面的滚动高度
+        var b = document.body.scrollTop || document.documentElement.scrollTop;
+        var d = 400;
+        var c = b;
+        timer = requestAnimationFrame(function func(){
+            var t = d - Math.max(0,startTime - (+new Date()) + d);
+            document.documentElement.scrollTop = document.body.scrollTop = t * (-c) / d + b;
+            timer = requestAnimationFrame(func);
+            if(t == d){
+              cancelAnimationFrame(timer);
+            }
+        });
+    }
+    </script>
+    </body>
+    <!-- 回到顶部组件结束 -->
+    
 	<div class="container">
 		<header class="header col-md-12">
 			<div class="page-header">
-				<h1><small><span class="glyphicon glyphicon-book" aria-hidden="true"></span> Kindle 读书笔记 </small> <span class="badge">更新于 2022-06-06 00:37 </span> <span class="badge"> 共 74 本书，394 条笔记</span></h1>
+				<h1><small><span class="glyphicon glyphicon-book" aria-hidden="true"></span> Kindle 读书笔记 </small> <span class="badge">更新于 2022-06-06 20:48 </span> <span class="badge"> 共 73 本书，392 条笔记</span></h1>
 			</div>
 		</header>
 	<div class="col-md-12">
@@ -62,15 +90,15 @@
           <a href="books/67bc4b9c7a311eec657766026519b25a.html" class="list-group-item"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> ﻿把自己作为方法：与项飙谈话（） <span class="glyphicon glyphicon-tag" aria-hidden="true">9</span></a>
           <a href="books/186fc6592b58a59f2b325d95340e9ed2.html" class="list-group-item"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> 呼兰河传 （萧红） <span class="glyphicon glyphicon-tag" aria-hidden="true">8</span></a>
           <a href="books/3d99cd24659d55af9e6fe64b3b7142bf.html" class="list-group-item"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> ﻿牛津通识读本：达达和超现实主义（霍普金斯） <span class="glyphicon glyphicon-tag" aria-hidden="true">7</span></a>
+          <a href="books/4e62a82c85ec814f2c03562f4e0b2824.html" class="list-group-item"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> ﻿红楼梦脂评汇校本 （曹雪芹） <span class="glyphicon glyphicon-tag" aria-hidden="true">6</span></a>
           <a href="books/c2358f319e849ca7455d4418b569d740.html" class="list-group-item"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> 加缪作品精装版：西西弗神话 （） <span class="glyphicon glyphicon-tag" aria-hidden="true">6</span></a>
           <a href="books/8bc9e0c81c16f3d736ccf9bf1ef5ec86.html" class="list-group-item"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> 单向街 （本雅明） <span class="glyphicon glyphicon-tag" aria-hidden="true">6</span></a>
           <a href="books/1f5bc3f3a6f37de0970fd6a6278b61cd.html" class="list-group-item"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> 灵山+一个人的圣经（高行健） <span class="glyphicon glyphicon-tag" aria-hidden="true">6</span></a>
           <a href="books/db78e50f8eb3cde16ce4f4c027b6e5fb.html" class="list-group-item"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> ﻿世界名著名译文库·纪德集04:人间食粮 （安德烈·纪德） <span class="glyphicon glyphicon-tag" aria-hidden="true">6</span></a>
           <a href="books/db325ccd94cd621c40fe063517807613.html" class="list-group-item"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> ﻿佩德罗·巴拉莫 （胡安·鲁尔福） <span class="glyphicon glyphicon-tag" aria-hidden="true">6</span></a>
-          <a href="books/c0a2c128c6a5c42de7586c8ad0ab5ba5.html" class="list-group-item"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> ﻿生命中不能承受之轻 （米兰·昆德拉） <span class="glyphicon glyphicon-tag" aria-hidden="true">5</span></a>
-          <a href="books/4e62a82c85ec814f2c03562f4e0b2824.html" class="list-group-item"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> ﻿红楼梦脂评汇校本 （曹雪芹） <span class="glyphicon glyphicon-tag" aria-hidden="true">5</span></a>
           <a href="books/0deea76c06804eee43cfeae8791f6794.html" class="list-group-item"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> 当代政治哲学（） <span class="glyphicon glyphicon-tag" aria-hidden="true">5</span></a>
           <a href="books/27b2c7e896d09acf1f55abac5f732d18.html" class="list-group-item"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> ﻿小行星掉在下午（沈大成） <span class="glyphicon glyphicon-tag" aria-hidden="true">5</span></a>
+          <a href="books/c0a2c128c6a5c42de7586c8ad0ab5ba5.html" class="list-group-item"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> ﻿生命中不能承受之轻 （米兰·昆德拉） <span class="glyphicon glyphicon-tag" aria-hidden="true">4</span></a>
           <a href="books/2d26825f83c5d204a317c20a69c1a100.html" class="list-group-item"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> 王安忆：小说的感情问题 （王安忆：小说的感情问题 ） <span class="glyphicon glyphicon-tag" aria-hidden="true">4</span></a>
           <a href="books/18fe43858d7af021ef837cfe47829015.html" class="list-group-item"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> 2020年的最后一天 （2020年的最后一天 ） <span class="glyphicon glyphicon-tag" aria-hidden="true">4</span></a>
           <a href="books/247a06ad6e6be8050057ea0219ebb3f5.html" class="list-group-item"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> 尘埃落定 （阿来） <span class="glyphicon glyphicon-tag" aria-hidden="true">4</span></a>
@@ -99,7 +127,6 @@
           <a href="books/dab4151f69f4e0509b9575a7c4c85afa.html" class="list-group-item"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> 乌合之众：大众心理研究 （古斯塔夫·勒庞） <span class="glyphicon glyphicon-tag" aria-hidden="true">1</span></a>
           <a href="books/bb761a194756d12ff8803a749d10eead.html" class="list-group-item"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> ﻿上帝掷骰子吗:量子物理史话 （曹天元） <span class="glyphicon glyphicon-tag" aria-hidden="true">1</span></a>
           <a href="books/5ff017cb1322c6f729e56553ee427cbf.html" class="list-group-item"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> 在自己身上，克服这个时代 （理想国 编） <span class="glyphicon glyphicon-tag" aria-hidden="true">1</span></a>
-          <a href="books/7fcd9c5a25fc9e4ea2e4a0ac58192c74.html" class="list-group-item"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> 生命中不能承受之轻 （米兰·昆德拉） <span class="glyphicon glyphicon-tag" aria-hidden="true">1</span></a>
           <a href="books/2816355338a153c178f06f079404e740.html" class="list-group-item"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> 数据科学中的数学基础: 矩阵和向量空间 （） <span class="glyphicon glyphicon-tag" aria-hidden="true">1</span></a>
           <a href="books/17e99e09ef2e636689e2e22c1f7fccd3.html" class="list-group-item"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> 关于量子力学的基本原理 （） <span class="glyphicon glyphicon-tag" aria-hidden="true">1</span></a>
           <a href="books/00a7034c14aa55d4c7f93c65b7c8cdba.html" class="list-group-item"><span class="glyphicon glyphicon-book" aria-hidden="true"></span> 总被人说：“拜托，你有什么好抑郁的？” （） <span class="glyphicon glyphicon-tag" aria-hidden="true">1</span></a>
