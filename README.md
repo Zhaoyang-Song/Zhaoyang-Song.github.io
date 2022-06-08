@@ -1,1 +1,1 @@
-Academic personal websites
+Personal academic website
