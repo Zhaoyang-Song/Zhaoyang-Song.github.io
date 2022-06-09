@@ -37,6 +37,6 @@ Education
   Provincial-level Project, Project ID: S202210610472 (**Participant**, Responsible for machine learning modeling, 12/2021 – present)
 
 # Research Skills
-- **Programming Language**: Python, Matlab, C, C++, Julia, R
+- **Programming Language**: Python, Julia, Matlab, C, C++, R
 - **Research Tool**: $\LaTeX$, Adobe Illustrator, Adobe Premiere Pro, Html
 
