@@ -38,6 +38,5 @@ Education
 
 # Research Skills
 - **Programming Language**: Python, Matlab, C, C++, Julia, R
-- **Simulation**: COMSOL Multiphysic
-- **Research Tool**: $\LaTeX$, Adobe Illustrator, Adobe Premiere Pro
+- **Research Tool**: $\LaTeX$, Adobe Illustrator, Adobe Premiere Pro, Html
 
