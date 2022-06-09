@@ -17,9 +17,6 @@ author_profile: false
 </video>
 </center>
 
-
-
-
 # 2021
 
-1. Xie, W.;  Tang, P.;  Wu, Q.;  Chen, C.; **Song, Z.**;  Li, T.;  Bai, Y.;  Lin, S.;  Tiraferri, A.; Liu, B.\*, <font color="#FF4858">Solar-driven desalination and resource recovery of shale gas wastewater by on-site interfacial evaporation</font>. *Chemical Engineering Journal*, 2021. [https://doi.org/10.1016/j.cej.2021.132624](https://doi.org/10.1016/j.cej.2021.132624)
+1. Wancen Xie; Peng Tang; Qidong Wu; Chen Chen; **Zhaoyang Song**; Tong Li; Yuhua Bai; Shihong Lin; Alberto Tiraferri; Baicang Liu\*, <font color="#FF4858">Solar-driven desalination and resource recovery of shale gas wastewater by on-site interfacial evaporation</font>. *Chemical Engineering Journal*, 2021. [https://doi.org/10.1016/j.cej.2021.132624](https://doi.org/10.1016/j.cej.2021.132624)
