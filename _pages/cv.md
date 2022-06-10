@@ -22,7 +22,7 @@ Education
 
 - **Program**: “Desalination of shale gas flowback and produced water by solar-driven interfacial evaporation technology”<br />
   **Funding Source**: National Innovation and Entrepreneurship Training Program for College Students<br />
-  National-level Project, Excellent Final Project, Project ID: 202110610196 (**PI**, 12/2020 - 12/2021)
+  National-level Project, Excellent Final Project, Project ID: 202110610196 (**Principal investigator**, 12/2020 - 12/2021)
 
 - **Program**: “Studies of the Pauli exclusion principle violation experiments and an experimental design in the China Jinping underground laboratory”<br />
   **Funding Source**: National Innovation and Entrepreneurship Training Program for College Students<br />
@@ -30,7 +30,7 @@ Education
 
 - **Program**: “Transfer and conversion mechanism of organic matter in shale gas wastewater in solar-driven interfacial evaporation technology”<br />
   **Funding Source**: National Innovation and Entrepreneurship Training Program for College Students<br />
-  Provincial-level Project, Project ID: S202210610597 (**PI**, 12/2021 – present)
+  Provincial-level Project, Project ID: S202210610597 (**Principal investigator**, 12/2021 – present)
 
 - **Program**: “Research on the identification and governance of corporate financial pseudo-innovation behavior in the digital economy era"<br />
   **Funding Source**: National Innovation and Entrepreneurship Training Program for College Students<br />
