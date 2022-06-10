@@ -8,7 +8,7 @@ author_profile: false
 
 # 2022
 
-1. **Zhaoyang Song**; Alberto Tiraferri; Ruihong Yuan; Jinzhi Cao; Peng Tang; Wancen Xie; John C. Crittenden; Baicang Liu\*, <font color="#FF4858">Theoretical evaluation of the evaporation rate of 2D solar-driven interfacial evaporation and of its large-scale application potential</font>. *Desalination*, Accepted.
+1. **Zhaoyang Song**; Alberto Tiraferri; Ruihong Yuan; Jinzhi Cao; Peng Tang; Wancen Xie; John C. Crittenden; Baicang Liu\*, <font color="#FF4858">Theoretical evaluation of the evaporation rate of 2D solar-driven interfacial evaporation and of its large-scale application potential</font>. *Desalination*, 2022. [https://doi.org/10.1016/j.desal.2022.115891](https://doi.org/10.1016/j.desal.2022.115891)
 
 <center>
 <video controls width="78%" height="78%">
