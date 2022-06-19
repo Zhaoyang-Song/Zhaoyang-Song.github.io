@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8" />
+	<title> Kindle 读书笔记 </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="../style/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="../style/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" />
+	<link href="../style/css/custom.css" rel="stylesheet" type="text/css" />
+	<!-- 下面是回到顶部组件的样式设置 -->
+	<style>
+	    .box{
+		position:fixed;
+		right:10px;
+		bottom:15px;
+		height:40px;
+		width: 40px;    
+		text-align:center;
+		z-index:999;
+		padding-top:20px;    
+		background-color: #337AB7;
+		opacity:0.4;
+		border-radius: 40%;
+		overflow: hidden;
+	    }
+	    .box:hover:before{
+		top:50%
+	    }
+	    .box-in{
+		visibility: visible;
+		display:inline-block;
+		height:28px;
+		width: 28px;
+		border: 3.4px solid black;
+		border-color: white transparent transparent white;
+		transform:rotate(45deg);
+	    }
+	</style>
+	<!-- 回到顶部组件样式设置结束 -->
+	
+	<!-- 下面是主体背景颜色设置，无底纹 -->
+  	<style>
+		body{
+		    background: #f2f2f2;
+		}
+        </style>
+   	<!-- 主体背景颜色设置结束 -->
+</head>
+<body>
+
+    <!-- 下面是回到顶部组件 -->
+    <div id="box" class="box">
+        <div class="box-in"></div>
+    </div>    
+    <script>
+    var timer  = null;
+    box.onclick = function(){
+        cancelAnimationFrame(timer);
+        //获取当前毫秒数
+        var startTime = +new Date();     
+        //获取当前页面的滚动高度
+        var b = document.body.scrollTop || document.documentElement.scrollTop;
+        var d = 400;
+        var c = b;
+        timer = requestAnimationFrame(function func(){
+            var t = d - Math.max(0,startTime - (+new Date()) + d);
+            document.documentElement.scrollTop = document.body.scrollTop = t * (-c) / d + b;
+            timer = requestAnimationFrame(func);
+            if(t == d){
+              cancelAnimationFrame(timer);
+            }
+        });
+    }
+    </script>
+    </body>
+    <!-- 回到顶部组件结束 -->
+
+	<div class="container">
+		<header class="header col-md-12">
+			<div class="page-header">
+				<h1><small><span class="glyphicon glyphicon-book" aria-hidden="true"></span> 跨越边界的社区（项飙） </small> <span class="badge"></span></h1>
+			</div>
+		</header>
+
+        <div class="col-md-2">
+			<ul class="nav nav-pills nav-stacked go-back">
+				<li role="presentation" class="active text-center">
+					<a href="../index.html"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> 返回目录</a>
+				</li>
+			</ul>
+		</div>
+
+    	<div class="col-md-12">
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk88"><p>又比如，《跨越边界的社区》详细记录了社区内非正式权威形成的复杂过程，包括大人物和帮派、和各级政府之间的千丝万缕的关系。自发形成的权威具有暴力和掠夺性的一面，但是通过在社区内部提供公共产品（特别是作为居住和生产空间的大院），草根权威出现良性化的趋势。最有威望的大人物成为打击帮派势力的主要力量，并且和基层政府积极互动。“浙江村”这二十年的一个显著变化是大人物的草根性的减弱。对新式精英来说，群众威望不再那么重要，而财富和体制给予的光环是他们追求的目标。重读历史细节让我意识到，新式精英的草根性的减弱，不能理解为劣绅对良绅的取代，更不是现代对传统的更替，而是因为“浙江村”的自主性被破坏了。由于自主性的破坏，体制有了更大的控制能力，但是并不因此有更强的社会吸纳能力。新式精英因此紧随体制，而他们发展群众基础的意愿和能力都不如老的大人物了。
+                    </p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>您在位置 #139-146的标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 添加于 2022年6月17日星期五 上午12:38:01</span>
+					</div>
+				</div>
+			</article>
+        </div>
+
+    	<div class="col-md-12">
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk88"><p>基金申请指南、A类刊物要求，框架、假设、文献回顾……黏稠的术语和雕琢的论证，堵塞了对话，窒息了思考。在这些正规化的文本里，不仅社会行动者看不到自己，连研究者也找不到作为活人的自己。近来兴起的底层书写是文学界和思想界对这一趋势的弥足珍贵的纠正，但是在这些文本里，底层者多以个体的受害人的面目出现，而不是以多面立体的、群体性的历史主体的身份站出来。多有感人的叹息，少有勃发倔强的生命。这样的文本可能符合知识分子的口味，但不是群众自己想看的。(3)要让群众看到饱满的自己，我们需要直面他们的经验和忧虑，需要解释这些经验和忧虑从哪里来，需要亮出他们的坚韧、顽强、智慧和希望。
+                    </p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>您在位置 #166-172的标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 添加于 2022年6月17日星期五 上午12:46:24</span>
+					</div>
+				</div>
+			</article>
+        </div>
+
+    	<div class="col-md-12">
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk88"><p>我们看到的一体化，并不是“浙江村人”和城市社会的整合，而是他们作为商品房房主和私立教育的消费者与城市市场的交易。同时，当地的区、乡政府比以前拥有了更大的行政干预和资源汲取的权力，“浙江村”则完全失去“倒逼”政策变革的能力。在20世纪90年代，媒体对“浙江村”的报道多含有对城市政府的批评，而21世纪第一个十年中期之后对“浙江村”的报道，则几乎是一边倒的对政府产业提升、旧城改造政策的应和与鼓吹。
+                    </p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>您在位置 #244-247的标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 添加于 2022年6月17日星期五 上午1:01:06</span>
+					</div>
+				</div>
+			</article>
+        </div>
+
+    	<div class="col-md-12">
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk88"><p>社会结构上的失衡，是和日常生活在形式上的有序，和街道的整洁、坐车的方便同时发生的，甚至是通过后者而得以实现并掩盖其内在矛盾的。
+                    </p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>您在位置 #253-254的标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 添加于 2022年6月17日星期五 上午1:02:21</span>
+					</div>
+				</div>
+			</article>
+        </div>
+
+    	<div class="col-md-12">
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk88"><p>在大清理的同时，当地乡村的土地关系也发生了重要变化。1995年，“浙江村”核心地带的南苑乡果园行政村按照“资产变股权、社员（村民）当股东”的原则，把村集体资产和非农用地未来的收益权，变成股份，分给每个村民。行政村成立投资公司对土地资产进行管理。村民变股东后，他们“带股上楼”，即免费入住投资公司盖成的高层住宅，同时让出各户的宅基地，由投资公司统一开发。(14)从而，土地从有具体的使用价值、镶嵌在社会关系中而难以流动的资源，变成了为追求利润最大化而被经营的资产。
+                    </p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>您在位置 #330-335的标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 添加于 2022年6月17日星期五 上午11:28:04</span>
+					</div>
+				</div>
+			</article>
+        </div>
+
+    	<div class="col-md-12">
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk88"><p>赌博不是资产化和金融化的必然后果，但是按“浙江村人”的说法，它们都受同一个“社会风气”影响。如果市场投资和矿业的盈利靠运气，那么赌博和这些冠冕堂皇的生意又有什么大的区别呢？资产化和金融化使得财富的伦理含义变得不确定，即所获财富和劳动投入、和个人对社会的实际贡献，几乎没有关系。浮躁的心态普遍蔓延。可能正因为如此，“浙江村”里经营户的一个新时尚是走访各大名刹，和住持和尚聊天，尤其是去北京潭柘寺喝茶，据说这样会“接地气”、保佑财富。接地气在“浙江村”是一个全新的概念。这个曾经最务实的社区，现在要向和尚讨“地气”。
+                    </p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>您在位置 #380-385的标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 添加于 2022年6月17日星期五 上午11:55:34</span>
+					</div>
+				</div>
+			</article>
+        </div>
+
+    	<div class="col-md-12">
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk88"><p>我在2000年的书里特别说明了我当时为什么不称大人物为“精英”，因为“精英”是外来研究者赋予的标签，而“大人物”是社区成员自己的概念；和政府关系紧密或者生意做得大的，在外人看来是精英，却未必是“浙江村人”眼里的大人物。(23)按这样的界定，今天的大人物已经成为典型的“精英”。
+                    </p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>您在位置 #512-515的标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 添加于 2022年6月19日星期日 上午1:56:04</span>
+					</div>
+				</div>
+			</article>
+        </div>
+
+    	<div class="col-md-12">
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk88"><p>大人物身上的从草根威望到体制光环的变化，也意味着现在人们怎么赚钱、怎么做人，和怎么获得正式的认可，各自的原则是分离的甚至是矛盾的。劳动和财富之间的距离、威信和权力之间的距离、日常生活中的意义和意识形态宣传之间的距离，似乎越拉越大。一个人可以在不做好人的前提下过上体面和有尊严的生活，有时候甚至必须不做好人才有体面和尊严。这可以理解为经济上的“分割—攫取”在思想意识领域的影响。
+                    </p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>您在位置 #518-522的标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 添加于 2022年6月19日星期日 上午1:57:35</span>
+					</div>
+				</div>
+			</article>
+        </div>
+
+    	<div class="col-md-12">
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk88"><p>“浙江村”正规化的最大受益者是占有土地的政府和各类公司化了的基层政权。他们受益，靠的不是对资产的掠夺，而是靠那些创造了价值的人的社会主体性的消解。一代“浙江村人”的劳动和经营沉淀为巨大的土地级差地租，而“浙江村人”却不能以一个主体身份要求分享这一价值。正规化既是对非正规实践的在名义上的否定，又是对它在事实上的侵占。“浙江村”的正规化把一个萌生中的“新社会空间”还原成了一个物理空间。社会空间里的主体是人，构成社会空间的是错综复杂从而也不免杂乱的关系；物理空间里的主体是地，起主导作用的是行政框架下的单一化的市场规则。面对社会空间，政府要谈判、妥协、学会共存；处理物理空间的手段则简单明了：拆、迁、卖。
+                    </p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>您在位置 #529-535的标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 添加于 2022年6月19日星期日 上午2:06:53</span>
+					</div>
+				</div>
+			</article>
+        </div>
+
+    	<div class="col-md-12">
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk88"><p>任何提高社会自治的措施有可能降低犯罪率，但是在长期也可能引起国家与社会的关系的结构性变化。当政府面临选择：是靠“压”来解决突发性问题，还是进行结构性的调整时，政府总偏爱前一种。换句话说，真正的问题出在国家与社会关系上。
+                    </p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>您在位置 #731-733的标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 添加于 2022年6月19日星期日 上午2:35:09</span>
+					</div>
+				</div>
+			</article>
+        </div>
+
+    	<div class="col-md-12">
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk88"><p>总之，在“浙江村人”眼里，“浙江村”是一个广泛交互的“关系丛”而不是一个实体，是一个过程而不是结构。
+                    </p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>您在位置 #769-770的标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 添加于 2022年6月19日星期日 上午2:41:03</span>
+					</div>
+				</div>
+			</article>
+        </div>
+
+    	<div class="col-md-12">
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk88"><p>事实上，成功商人现在在世界上任何地方都受欢迎，而普通的流动工人，包括“浙江村”里的雇工，依然要面对强大的行政藩篱和社会歧视。为一小部分人打破边界，往往意味着剩下的多数人要面临更多的障碍。比如在中国，那些受政府欢迎的成功经济人士的流动，促使大城市的房价激涨，意味着一般的流动群体的生活更加艰辛。我的“浙江村”研究带有自由放任的政策取向，而我现在觉得一个更现实的危险是，政府可能会过分迎合新成功者而损害其他群体的福利。
+                    </p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>您在位置 #797-801的标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 添加于 2022年6月19日星期日 上午2:45:31</span>
+					</div>
+				</div>
+			</article>
+        </div>
+
+        </div>
+    </div>
+</body>
+</html>
