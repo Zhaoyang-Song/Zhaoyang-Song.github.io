@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8" />
+	<title> Kindle 读书笔记 </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="../style/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="../style/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" />
+	<link href="../style/css/custom.css" rel="stylesheet" type="text/css" />
+	<!-- 下面是回到顶部组件的样式设置 -->
+	<style>
+	    .box{
+		position:fixed;
+		right:10px;
+		bottom:15px;
+		height:40px;
+		width: 40px;    
+		text-align:center;
+		z-index:999;
+		padding-top:20px;    
+		background-color: #337AB7;
+		opacity:0.4;
+		border-radius: 40%;
+		overflow: hidden;
+	    }
+	    .box:hover:before{
+		top:50%
+	    }
+	    .box-in{
+		visibility: visible;
+		display:inline-block;
+		height:28px;
+		width: 28px;
+		border: 3.4px solid black;
+		border-color: white transparent transparent white;
+		transform:rotate(45deg);
+	    }
+	</style>
+	<!-- 回到顶部组件样式设置结束 -->
+	
+	<!-- 下面是主体背景颜色设置，无底纹 -->
+  	<style>
+		body{
+		    background: #f2f2f2;
+		}
+        </style>
+   	<!-- 主体背景颜色设置结束 -->
+</head>
+<body>
+
+    <!-- 下面是回到顶部组件 -->
+    <div id="box" class="box">
+        <div class="box-in"></div>
+    </div>    
+    <script>
+    var timer  = null;
+    box.onclick = function(){
+        cancelAnimationFrame(timer);
+        //获取当前毫秒数
+        var startTime = +new Date();     
+        //获取当前页面的滚动高度
+        var b = document.body.scrollTop || document.documentElement.scrollTop;
+        var d = 400;
+        var c = b;
+        timer = requestAnimationFrame(function func(){
+            var t = d - Math.max(0,startTime - (+new Date()) + d);
+            document.documentElement.scrollTop = document.body.scrollTop = t * (-c) / d + b;
+            timer = requestAnimationFrame(func);
+            if(t == d){
+              cancelAnimationFrame(timer);
+            }
+        });
+    }
+    </script>
+    </body>
+    <!-- 回到顶部组件结束 -->
+
+	<div class="container">
+		<header class="header col-md-12">
+			<div class="page-header">
+				<h1><small><span class="glyphicon glyphicon-book" aria-hidden="true"></span> 都柏林人  </small> <span class="badge"></span></h1>
+			</div>
+		</header>
+
+        <div class="col-md-2">
+			<ul class="nav nav-pills nav-stacked go-back">
+				<li role="presentation" class="active text-center">
+					<a href="../index.html"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> 返回目录</a>
+				</li>
+			</ul>
+		</div>
+
+    	<div class="col-md-12">
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk88"><p>乔伊斯认为戏剧与文学不同，戏剧高于文学，文学表现个人的独特性；而戏剧却表现“人性中不变的法则”，传达人生的真谛。
+                    </p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>您在位置 #72-73的标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 添加于 2022年6月24日星期五 下午4:44:09</span>
+					</div>
+				</div>
+			</article>
+        </div>
+
+    	<div class="col-md-12">
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk88"><p>乔伊斯关于戏剧与文学的这些观点自然可以商榷，但有一点是可以肯定的，文学也好，戏剧也好，必须贴近现实生活，表现真实的人生，这是大家公认的创作原则，也是乔伊斯的追求。
+                    </p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>您在位置 #75-77的标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 添加于 2022年6月24日星期五 下午4:46:33</span>
+					</div>
+				</div>
+			</article>
+        </div>
+
+    	<div class="col-md-12">
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk88"><p>乔伊斯关于戏剧与文学的这些观点自然可以商榷，但有一点是可以肯定的，文学也好，戏剧也好，必须贴近现实生活，表现真实的人生，这是大家公认的创作原则，也是乔伊斯的追求。这篇剧评发表后，易卜生很快给予了首肯，易卜生的表彰更坚定了他按照自己的意愿进行文学创作的决心，事实上，他后来的全部小说不仅是高度戏剧化的作品，也是在虚构中表现现实生活的典范之作。
+                    </p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>您在位置 #75-79的标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 添加于 2022年6月24日星期五 下午4:46:51</span>
+					</div>
+				</div>
+			</article>
+        </div>
+
+    	<div class="col-md-12">
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk88"><p>在家庭生活常不如意，爱尔兰政局混乱，经济衰退，民不聊生，社会生活瘫痪，到处弥漫着悲观气氛的大环境下，他深感失望，他要出走，去寻找新的生活，通过文学创作充实自己的物质与精神世界，同时在道德上、精神上疗救自己的祖国。
+                    </p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>您在位置 #104-106的标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 添加于 2022年6月24日星期五 下午4:57:22</span>
+					</div>
+				</div>
+			</article>
+        </div>
+
+    	<div class="col-md-12">
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk88"><p>乔伊斯对这些文学前辈的才华与成就非常崇敬，但对他们在文学创作上的取向却不认同，在他看来，当代的文学创作不应向后看，而应向前看，应该更多地关注当下的社会现实，而不是远离现实，遁入远古的时空中，他渴望在社会现实的基础上飞升，在展示现实的过程中有所发现和创造。关注现实，刻意求新，这正是乔伊斯创作中贯穿始终的两个原则。
+                    </p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>您在位置 #116-119的标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 添加于 2022年6月24日星期五 下午5:51:26</span>
+					</div>
+				</div>
+			</article>
+        </div>
+
+    	<div class="col-md-12">
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk88"><p>从1904年辗转欧陆到1941年逝世，乔伊斯主要创作了几十首诗、一部剧作和四部小说。小说代表了他创作的最高成就。短篇小说集《都柏林人》基本上是一部现实主义作品，但有一定象征色彩。它包括15个故事，这些故事既能独立成篇又相互关联，可以按照童年、青少年、成年和社会活动的线索去理解。乔伊斯力图通过这些故事展示都柏林麻木、瘫痪、没落、衰朽的情状，表现都柏林人在日常生活中遭遇的挫折、感受的苦难、产生的幻灭和精神顿悟。
+                    </p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>您在位置 #127-131的标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 添加于 2022年6月24日星期五 下午5:53:14</span>
+					</div>
+				</div>
+			</article>
+        </div>
+
+    	<div class="col-md-12">
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk88"><p>一般说，大部分短篇小说集都是选收多种题材的故事，但《都柏林人》与众不同，从一开始它就被构想为一本有机的整体，其中的故事通过题材、风格、技巧和主题相互连接在一起。正如乔伊斯在1906年5月5日致格兰特·理查兹的信中所说：“我的意图是一章写我国的道德历史，我选择了都柏林作为地点，因为这个城市处于麻木状态的核心。我试图从四个方面把它呈现给无动于衷的公众：童年，青年，成年，以及公共生活。故事按照这个顺序安排。大部分都采取审慎的平民词语的风格……”
+                    </p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>您在位置 #416-420的标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 添加于 2022年6月24日星期五 下午6:26:52</span>
+					</div>
+				</div>
+			</article>
+        </div>
+
+    	<div class="col-md-12">
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk88"><p>年轻时的乔伊斯对都柏林人的两个独特的方面非常了解：　一个方面是他们爱去酒吧；另一个方面是关于他们的政治。另外他也了解一个不太典型的方面，即都柏林的音乐。
+                    </p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>您在位置 #447-448的标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 添加于 2022年6月24日星期五 下午7:40:27</span>
+					</div>
+				</div>
+			</article>
+        </div>
+
+    	<div class="col-md-12">
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk88"><p>“‘你觉得这篇东西怎么样，克罗夫顿？’亨奇先生叫道。‘难道不好吗？你说什么？’<br/>克罗夫顿先生说这是一篇绝好的作品。”<br/>如果乔伊斯让克罗夫顿先生自己说这些赞美的话，那么他就冤枉了这位绅士善良的沉默。因为克罗夫顿先生曾为保守派拉选票，他必然觉得诗里有某种叛逆的色彩。然而他是个普通的人，在那种场合里他只会宽容。“克罗夫顿先生说这是一篇绝好的作品。”这句话使人感觉到他超然的态度。这种超然的情调可以说是《都柏林人》的一个重要特点。
+                    </p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>您在位置 #458-463的标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 添加于 2022年6月24日星期五 下午7:43:22</span>
+					</div>
+				</div>
+			</article>
+        </div>
+
+    	<div class="col-md-12">
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk88"><p>在《都柏林人》的大部分小说里，乔伊斯都使读者通过他的目光来观察事件而不作任何评论。因此读者在这些故事里总感到一种疏离感，仿佛他要通过一系列的报道来说明都柏林的生活，就像一个注重科学性的历史学家描绘事件那样。
+                    </p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>您在位置 #463-465的标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 添加于 2022年6月24日星期五 下午7:43:51</span>
+					</div>
+				</div>
+			</article>
+        </div>
+
+    	<div class="col-md-12">
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk88"><p>《都柏林人》里的大部分人物都是孤独寂寞、互不相关的人。他们大多生活在狭小的空间里，但又以某种文雅的态度面对世界。有些人物的故事令人难忘，因为他们看到了黑暗的深处。
+                    </p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>您在位置 #469-471的标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 添加于 2022年6月24日星期五 下午7:46:03</span>
+					</div>
+				</div>
+			</article>
+        </div>
+
+    	<div class="col-md-12">
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk88"><p>几声轻轻拍打玻璃的声音使他转过身面向窗户。又开始下雪了。他睡意蒙眬地望着雪花，银白和灰暗的雪花在灯光的衬托下斜斜地飘落。时间已到他出发西行的时候。是的，报纸是对的：　整个爱尔兰都在下雪。雪落在阴晦的中部平原的每一片土地上，落在没有树木的山丘上，轻轻地落在艾伦沼地上，再往西，轻轻地落进山农河面汹涌澎湃的黑浪之中。它也落在山丘上孤零零的教堂墓地的每一个角落，迈克尔·福瑞就埋葬在那里。它飘落下来，厚厚地堆积在歪斜的十字架和墓碑上，堆积在小门一根根栅栏的尖顶上，堆积在光秃秃的荆棘丛上。他听着雪花隐隐约约地飘落，慢慢地睡着了，雪花穿过宇宙轻轻地落下，就像他们的结局似的，落到所有生者和死者的身上。
+                    </p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>您在位置 #478-484的标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 添加于 2022年6月24日星期五 下午7:47:24</span>
+					</div>
+				</div>
+			</article>
+        </div>
+
+    	<div class="col-md-12">
+			<article>
+				<div class="panel panel-default">
+					<div class="panel-body mk88"><p>总起来看，《都柏林人》可以说是由十五个故事组成的一个整体，它反映了都柏林不同层面的生活，在写作方法上具有以下几个突出的特点：第一，它集中使用某些词汇，例如“徒劳”、“无用”、“厌倦”、“绝望”等在多个故事里反复出现，其目的是使读者不知不觉地感受到每一个故事是普通人的道德构成。第二，以“混乱”表示瘫痪，每当人物不得不面对选择某种积极生活的关键时刻，他们就变得不知所措，像吓坏的兔子一样静止不动。第三，以单色调的散文风格象征都柏林单调乏味的生活，产生出黑白照片的效果，但并不是一种单纯怀旧的风格。第四，故事的情节都是琐事，人物是一种导致瘫痪的体制的受害者，而读者在阅读过程中会以微妙地改变了的目光观察细小的事件。第五，故意破坏读者通常期望的“开始、中间和结束”的顺序，但不是采取蒙太奇式的编织方式，而是依靠在读者记忆中挥之不去的转折点。<br/>当然，与所有经典名著一样，《都柏林人》为读者提供了充分的解读空间。上面的一些看法只是一己之见，唯一的希望是它能起到抛砖引玉的作用。
+                    </p></div>
+					<div class="panel-footer text-right">
+						<span class="label label-primary"><span class="glyphicon glyphicon-tag" aria-hidden="true"></span> 标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>您在位置 #485-494的标注</span>
+						<span class="label label-default"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> 添加于 2022年6月24日星期五 下午8:01:39</span>
+					</div>
+				</div>
+			</article>
+        </div>
+
+        </div>
+    </div>
+</body>
+</html>
