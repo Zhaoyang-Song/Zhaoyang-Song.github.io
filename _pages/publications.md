@@ -4,7 +4,7 @@ permalink: /publications/
 author_profile: false
 ---
 
-<a href="timeline/timeline.html" target="_blank">Publications Timeline<a>
+<a href="/files/timeline/timeline.html" target="_blank">Publications Timeline<a>
 
 \* Corresponding author
 
