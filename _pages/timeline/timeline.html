@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications Timeline</title>
+    <!-- links -->
+    <link title = "timeline-styles" rel = "stylesheet" href = "css/timeline.css" >
+    <script src = "js/timeline.js" ></script>
+    <link rel="Shortcut Icon" href="ico/favicon.ico" type="image/x-icon" />    <!-- ico -->
+    <!-- links end -->
+    <!-- 配置参考：http://timeline.knightlab.com/docs/instantiate-a-timeline.html -->  
+    <!-- json参考：http://timeline.knightlab.com/docs/json-format.html#json-date -->  
+</head>
+<body>
+    <div id='timeline-embed' style="width: 100%; height: 640px"></div>
+    <script type="text/javascript">
+            var timeline_options = {}
+        var timeline_json = {
+              "events": [
+                {
+                  "group": "Interfacial Evaporation", 
+                  "start_date": {
+                    "month": 9, 
+                    "day": 22, 
+                    "year": 2021
+                  },
+                  "end_date": {
+                    "month": 9,
+                    "day": 22, 
+                    "year": 2021
+                  }, 
+                  "text": {
+                    "headline": "Solar-driven desalination and resource recovery of shale gas wastewater by on-site interfacial evaporation", 
+                    "text": "The safe and economical management of shale gas flowback and produced water (FPW) with the goal of zero-liquid discharge (ZLD) is of paramount significance to the sustainable development of the energy industry. This challenge is still widely impending, due to severe limitations related to the complexity of FPW streams and high costs associated with their treatment. A long-term feasible solution is represented by solar-driven interfacial evaporation (SIE), a low-cost and environmentally friendly desalination technology. Technical and economic analyses show that even in the Sichuan Basin, where solar intensity is low and the volume of FPW is large, 4000 m<sup>2</sup> of solar still would be sufficient to accomplish ZLD with a capital cost lower than $ 1 m<sup>-3</sup>, significantly cheaper than traditional membrane-based and thermal-based technologies (with costs above $ 15 m<sup>-3</sup>). Beneficial products, including condensate water and crystalline salts, may also be effectively recovered in this process, although design improvements are needed in this area. This study also discusses possible solutions to address the passage of volatile organic compounds into the effluent and to achieve the smart recovery of strategic resources, such as lithium and rare earth elements. The major current challenges of solar-driven evaporation for the beneficial management of FPW are scaling and fouling, cost-effective latent heat recovery, the scalability of the systems, and efficient water production and salts harvesting. These issues require ad hoc research efforts, analyses, and pilot testing."
+                  },
+                  "media": {
+                    "url": "pic/cej_2021.jpg", 
+                    "credit": "Wancen Xie; Peng Tang; Qidong Wu; Chen Chen; <b>Zhaoyang Song</b>; Tong Li; Yuhua Bai; Shihong Lin; Alberto Tiraferri; Baicang Liu*</br></br><b>Chemical Engineering Journal</b>, 2021", 
+                    "thumbnail": "", 
+                    "caption": ""
+                  },
+                  "background": {
+
+                  }
+                },
+                {
+                  "group": "Interfacial Evaporation", 
+                  "start_date": {
+                    "month": 6, 
+                    "day": 8, 
+                    "year": 2022
+                  },
+                  "end_date": {
+                    "month": 6,
+                    "day": 8, 
+                    "year": 2022
+                  }, 
+                  "text": {
+                    "headline": "Theoretical evaluation of the evaporation rate of 2D solar-driven interfacial evaporation and of its large-scale application potential", 
+                    "text": "2D solar-driven interfacial evaporation (2D SIE) is a low-cost, environmentally friendly water treatment solution. Studies have improved the performance of single-stage evaporation close to its upper bound in controlled environments. However, the most critical parameter – the rate of evaporation – was only assessed by laboratory-scale measurements and data are typically obtained under a specific set of conditions. Previous studies did not evaluate or modeled evaporation rates in the case of changing environmental variables, for example, temperature, humidity, or wind speed. To effectively utilize the 2D SIE technology at real scale and understand its potential in different scenarios, the spatial and temporal variability of environmental parameters must be considered. To preliminarily address this issue, we propose the first model for assessing the evaporation rate of 2D SIE systems in real environments. Based on this theoretical model, we thus explore the potential deployment of the 2D SIE technology globally. This study provided a basis for further model development and it discusses key information to guide further improvements of 2D SIE systems design and its large-scale implementation."
+                  }, 
+                  "media": {
+                    "url": "pic/desa_2022.png", 
+                    "credit": "<b>Zhaoyang Song</b>; Alberto Tiraferri; Ruihong Yuan; Jinzhi Cao; Peng Tang; Wancen Xie; John C. Crittenden; Baicang Liu*</br></br><b>Desalination</b>, 2022", 
+                    "thumbnail": "", 
+                    "caption": ""
+                  },
+                  "background": {
+
+                  }
+                }
+                  ] 
+                };
+        window.timeline = new TL.Timeline('timeline-embed', timeline_json, timeline_options);
+    </script>
+</body>
+</html>
