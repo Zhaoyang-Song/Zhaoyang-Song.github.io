@@ -4,9 +4,9 @@ permalink: /publications/
 author_profile: false
 ---
 
-\* Corresponding author
-
 <a href="timeline/timeline.html" target="_blank">Publications Timeline<a>
+
+\* Corresponding author
 
 # 2022
 
