@@ -10,7 +10,8 @@ author_profile: false
 
 # 2022
 
-1. Wancen Xie; Guijing Chen; Chen Chen; **Zhaoyang Song**; Qidong Wu; Lun Tian; Zhongde Dai; Songmiao Liang; Peng Tang; Xiang Zhang; Jun Ma; Baicang Liu\*, <font color="#FF4858">Polydopamine/ polyethyleneimine/ MOF ternary-coated poly (vinyl chloride) nanocomposite membranes based on green solvent for shale gas wastewater treatment</font>. *Journal of Membrane Science*, 2022. (Accepted)
+1. Wancen Xie; Guijing Chen; Chen Chen; **Zhaoyang Song**; Qidong Wu; Lun Tian; Zhongde Dai; Songmiao Liang; Peng Tang; Xiang Zhang; Jun Ma; Baicang Liu\*, <font color="#FF4858">Polydopamine/ polyethyleneimine/ MOF ternary-coated poly (vinyl chloride) nanocomposite membranes based on green solvent for shale gas wastewater treatment</font>. *Journal of Membrane Science*, 2022. <a href="https://doi.org/10.1016/j.memsci.2022.121100" target="_blank">https://doi.org/10.1016/j.memsci.2022.121100</a>
+
 2. **Zhaoyang Song**; Alberto Tiraferri; Ruihong Yuan; Jinzhi Cao; Peng Tang; Wancen Xie; John C. Crittenden; Baicang Liu\*, <font color="#FF4858">Theoretical evaluation of the evaporation rate of 2D solar-driven interfacial evaporation and of its large-scale application potential</font>. *Desalination*, 2022. <a href="https://doi.org/10.1016/j.desal.2022.115891" target="_blank">https://doi.org/10.1016/j.desal.2022.115891</a>
 
 <center>
