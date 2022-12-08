@@ -35,4 +35,4 @@ redirect_from:
 
 # Research Skills
 - **Programming Language**: Python, Julia, Matlab, R, HTML, JavaScript, C, C++
-- **Research Tool**: $\LaTeX$, Adobe Illustrator, Adobe Premiere Pro
+- **Research Tool**: $\LaTeX$, GIS, Adobe Illustrator, Adobe Premiere Pro
