@@ -83,7 +83,7 @@ analytics:
 author:
   name             : "Zhaoyang Song"
   avatar           : "s.jpeg"
-  bio              : #"Your biography for the left-hand sidebar"
+  bio              : "Environmental Modeling; Carbon Neutrality; Applied Physics; Water-Energy Nexus; Water Treatment"
   location         : "Chengdu, China"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -97,14 +97,14 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : #"academicpages"
+  github           : "Zhaoyang-Song"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : #"http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0000-0001-9924-4598"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
