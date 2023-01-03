@@ -85,10 +85,12 @@ author:
   avatar           : "s.jpeg"
   bio              : "Environmental Modeling; Carbon Neutrality; Applied Physics; Water-Energy Nexus; Water Treatment"
   location         : "Chengdu, China"
+  orcid            : "https://orcid.org/0000-0001-9924-4598"
+  github           : "Zhaoyang-Song"
+  email            : song.zhaoyang@foxmail.com  
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
-  email            : song.zhaoyang@foxmail.com
   researchgate     : # example: "https://www.researchgate.net/profile/yourprofile"
   uri              : # zhaoyang-song.github.io
   bitbucket        :
@@ -97,14 +99,12 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "Zhaoyang-Song"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "https://orcid.org/0000-0001-9924-4598"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
