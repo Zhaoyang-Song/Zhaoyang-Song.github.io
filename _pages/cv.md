@@ -10,7 +10,7 @@ redirect_from:
 
 # Education
 
-- **B.S.** in Physics, College of Physics, Sichuan University, P.R. China (09/2019 - present)
+- **B.Sc.** in Physics, College of Physics, Sichuan University, P.R. China (09/2019 - present)
 - **Carbon Neutral Technology Innovation Class**, Institute of New Energy and Low-Carbon Technology, Sichuan University, P.R. China (06/2020 - present)
 
 # Research Experiences
@@ -34,5 +34,5 @@ redirect_from:
   College-level Project, Project ID: C2021118074 (**Participant**, Responsible for theoretical calculations and experiments, 12/2020 - 12/2021)
 
 # Research Skills
-- **Programming Language**: Python, Julia, Matlab, R, HTML, JavaScript, C, C++
-- **Research Tool**: $\LaTeX$, GIS, Adobe Illustrator, Adobe Premiere Pro
+- **Programming Language**: Python, Julia, Matlab, HTML, JavaScript, R, C, C++
+- **Research Tool**: $\LaTeX$, Adobe Illustrator, Adobe Premiere Pro
