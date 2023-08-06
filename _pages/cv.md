@@ -10,8 +10,8 @@ redirect_from:
 
 # Education
 
-- **B.Sc.** in Physics, College of Physics, Sichuan University, P.R. China (09/2019 - present)
-- **Carbon Neutral Technology Innovation Class**, Institute of New Energy and Low-Carbon Technology, Sichuan University, P.R. China (06/2020 - present)
+- **B.Sc.** in Physics, College of Physics, Sichuan University, P.R. China (09/2019 - 06/2023)
+- **Carbon Neutral Technology Innovation Class**, Institute of New Energy and Low-Carbon Technology, Sichuan University, P.R. China (06/2020 - 06/2023)
 
 # Research Experiences
 
