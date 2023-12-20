@@ -75,14 +75,14 @@ social:
 analytics:
   provider: # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id: 
+    tracking_id:
     anonymize_ip: true
 
 
 # Site Author
 author:
   name             : "Zhaoyang Song"
-  avatar           : "s.jpeg"
+  avatar           : "s.JPG"
   bio              : "Environmental Modeling; Carbon Neutrality; Applied Physics; Water-Energy Nexus; Water Treatment"
   location         : "Chengdu, China"
   orcid            : "https://orcid.org/0000-0001-9924-4598"
