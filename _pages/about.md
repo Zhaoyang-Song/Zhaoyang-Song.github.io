@@ -13,4 +13,4 @@ I'm currently a graduate student at <a href="https://www.wur.nl/en.htm" target="
 
 My primary research interest lies in the issue of carbon neutrality, with a particular focus on relevant environmental modeling techniques. I am good at theoretical modeling and passionate about programming techniques. My graduate studies focus on atmospheric research, which is a completely new direction for me. Previously, I have been involved in research related to water treatment and carbon neutrality.
 
-<center><img style="max-width:87%;overflow:hidden;" src="images/ChengduAndWageningenUni.svg" alt="ChengduAndWageningenUni" /><center/>
+<center><img style="max-width:57%;overflow:hidden;" src="images/ChengduAndWageningenUni.svg" alt="ChengduAndWageningenUni" /><center/>
