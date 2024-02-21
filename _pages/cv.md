@@ -10,13 +10,17 @@ redirect_from:
 
 # Education
 
-- **M.Sc.** in Environmental Sciences, Wageningen University & Research, Netherlands (Expected enrollment in February 2024)
+- **M.Sc.** in Environmental Sciences, Wageningen University & Research, Netherlands (02/2024 - present)
 - **B.Sc.** in Physics, College of Physics, Sichuan University, P.R. China (09/2019 - 06/2023)
 - **Carbon Neutral Technology Innovation Class**, Institute of New Energy and Low-Carbon Technology, Sichuan University, P.R. China (06/2020 - 06/2023)
 
 # Research Experiences
 
 - **Prof. Baicang Liu's Research Group**, College of Architecture and Environment, Institute of New Energy and Low-Carbon Technology, Sichuan University, P.R. China (09/2020 - present)
+
+  > During my undergraduate studies, under the supervision of Prof. <a href="https://scholar.google.ca/citations?user=jDVoLL4AAAAJ&hl=en" target="_blank">Baicang Liu</a> (Sichuan University, China), I participated in research related to carbon neutral technology (on the topic of water treatment & environmental modeling).
+  >
+  > Our research mainly focuses on solar-driven interfacial evaporation, membrane technology, and hazardous chemical wastewater treatment.
 
 
 # Research Grants
@@ -35,5 +39,5 @@ redirect_from:
   College-level Project, Project ID: C2021118074 (**Participant**, Responsible for theoretical calculations and experiments, 12/2020 - 12/2021)
 
 # Research Skills
-- **Programming Language**: Python, Julia, Matlab, Full Stack Web Development (HTML, JavaScript, CSS), R, C, C++
+- **Programming Language**: Python, Julia, Full Stack Web Development (HTML, JavaScript, CSS), Matlab, R, C, C++
 - **Research Tool**: $\LaTeX$, Adobe Illustrator, Adobe Premiere Pro

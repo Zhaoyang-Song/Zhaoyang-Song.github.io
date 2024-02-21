@@ -9,10 +9,8 @@ redirect_from:
 
 Hi there, welcome to my personal website.
 
-I'm currently a college student at <a href="https://www.scu.edu.cn/" target="_blank">Sichuan University</a>, China. Physics is my college major, and I'm also a student of the Carbon Neutral Technology Innovation Class of Sichuan University.
+I'm currently a graduate student at <a href="https://www.wur.nl/en.htm" target="_blank">Wageningen University & Research</a> in the Netherlands, majoring in Environmental Sciences.
 
-During my undergraduate studies, under the supervision of Prof. <a href="https://scholar.google.ca/citations?user=jDVoLL4AAAAJ&hl=en" target="_blank">Baicang Liu</a> (Sichuan University, China), I participated in research related to carbon neutral technology (on the topic of water treatment & environmental modeling). I care about environmental issues and would like to work on related research. I am good at theoretical modeling and passionate about programming techniques.
+My primary research interest lies in the issue of carbon neutrality, with a particular focus on relevant environmental modeling techniques. I am good at theoretical modeling and passionate about programming techniques. My graduate studies focus on atmospheric research, which is a completely new direction for me. Previously, I have been involved in research related to water treatment and carbon neutrality.
 
-In life, my interests are very broad. I especially like hiking, reading novels and playing badminton.
-
-<center><img style="max-width:30%;overflow:hidden;" src="images/cd.svg" alt="cd" /><center/>
+<center><img style="max-width:30%;overflow:hidden;" src="images/ChengduAndWageningenUni.svg" alt="ChengduAndWageningenUni" /><center/>
