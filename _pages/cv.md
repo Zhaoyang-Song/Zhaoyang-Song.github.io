@@ -39,5 +39,5 @@ redirect_from:
   College-level Project, Project ID: C2021118074 (**Participant**, Responsible for theoretical calculations and experiments, 12/2020 - 12/2021)
 
 # Research Skills
-- **Programming Language**: Python, Julia, Full Stack Web Development (HTML, JavaScript, CSS), Matlab, R, C, C++
-- **Research Tool**: $\LaTeX$, Adobe Illustrator, Adobe Premiere Pro
+- **Programming Language**: Python, Julia, Full Stack Web Development (HTML, JavaScript, CSS), MATLAB, R, C, C++
+- **Research Tool**: Linux, $\LaTeX$, Adobe Illustrator, Adobe Premiere Pro
