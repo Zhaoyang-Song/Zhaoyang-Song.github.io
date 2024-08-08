@@ -8,6 +8,12 @@ author_profile: false
 
 \* Corresponding author
 
+# 2024
+
+<ol reversed start=4>
+<li>Shiyu Zhong; <b>Zhaoyang Song</b>; Wancen Xie*; Yujie Guo; Jingyu Shu; Xin Li; Guijing Chen; Xiaoyu Ren; Zicheng Wang; Xia Hao; Baicang Liu*, <font color="#FF4858">Solar-driven interfacial evaporation on balsa for shale gas wastewater treatment: Analysis of system efficiency and water safety</font>. <i>Chemical Engineering Journal</i>, 2024. <a href="https://doi.org/10.1016/j.cej.2024.154623" target="_blank">https://doi.org/10.1016/j.cej.2024.154623</a></li>
+</ol>
+
 # 2022
 
 <ol reversed start=3>
@@ -15,14 +21,13 @@ author_profile: false
 <li><b>Zhaoyang Song</b>; Alberto Tiraferri; Ruihong Yuan; Jinzhi Cao; Peng Tang; Wancen Xie; John C. Crittenden; Baicang Liu*, <font color="#FF4858">Theoretical evaluation of the evaporation rate of 2D solar-driven interfacial evaporation and of its large-scale application potential</font>. <i>Desalination</i>, 2022. <a href="https://doi.org/10.1016/j.desal.2022.115891" target="_blank">https://doi.org/10.1016/j.desal.2022.115891</a></li>
 </ol>
 
-
-
 <center>
 <video controls width="78%" height="78%">
     <source src="/video/Global Evaporation Prediction Based on 2D SIE Technology.mp4"/>
     Sorry, your browser does not support this video, please use Chrome instead.
 </video>
 </center>
+
 # 2021
 
 <ol>
