@@ -8,12 +8,18 @@ author_profile: false
 
 \* Corresponding author
 
-# 2024
+# 2025
 
-<ol reversed start=4>
-<li>Shiyu Zhong; <b>Zhaoyang Song</b>; Wancen Xie*; Yujie Guo; Jingyu Shu; Xin Li; Guijing Chen; Xiaoyu Ren; Zicheng Wang; Xia Hao; Baicang Liu*, <font color="#FF4858">Solar-driven interfacial evaporation on balsa for shale gas wastewater treatment: Analysis of system efficiency and water safety</font>. <i>Chemical Engineering Journal</i>, 2024. <a href="https://doi.org/10.1016/j.cej.2024.154623" target="_blank">https://doi.org/10.1016/j.cej.2024.154623</a></li>
+<ol reversed start=6>
+<li>Xifan Li; Guijing Chen; Xin Li; <b>Zhaoyang Song</b>; Wen Liu; Baicang Liu*, <font color="#FF4858">Research on the extraction mechanism of dibenzo-14-crown-4 ether to specific recovery Li<sup>+</sup> from spent lithium-ion battery raffinate</font>. <i>Desalination</i>, 2024. <a href="https://doi.org/10.1016/j.desal.2025.118581" target="_blank">https://doi.org/10.1016/j.desal.2025.118581</a></li>
 </ol>
 
+# 2024
+
+<ol reversed start=5>
+<li>Guijing Chen; Xifan Li; Xin Li; <b>Zhaoyang Song</b>; Baicang Liu*, <font color="#FF4858">Active-passive synergistic alleviation of membrane scaling from groundwater by grafting charged positive monomers on the surface of nanofiltration membranes</font>. <i>Desalination</i>, 2024. <a href="https://doi.org/10.1016/j.desal.2024.118436" target="_blank">https://doi.org/10.1016/j.desal.2024.118436</a></li>
+<li>Shiyu Zhong; <b>Zhaoyang Song</b>; Wancen Xie*; Yujie Guo; Jingyu Shu; Xin Li; Guijing Chen; Xiaoyu Ren; Zicheng Wang; Xia Hao; Baicang Liu*, <font color="#FF4858">Solar-driven interfacial evaporation on balsa for shale gas wastewater treatment: Analysis of system efficiency and water safety</font>. <i>Chemical Engineering Journal</i>, 2024. <a href="https://doi.org/10.1016/j.cej.2024.154623" target="_blank">https://doi.org/10.1016/j.cej.2024.154623</a></li>
+</ol>
 # 2022
 
 <ol reversed start=3>
