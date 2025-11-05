@@ -12,10 +12,20 @@ redirect_from:
 
 - **M.Sc.** in Environmental Sciences, Wageningen University & Research, Netherlands (02/2024 - present)
 - **B.Sc.** in Physics, College of Physics, Sichuan University, P.R. China (09/2019 - 06/2023)
-- **Carbon Neutral Technology Innovation Class**, Institute of New Energy and Low-Carbon Technology, Sichuan University, P.R. China (06/2020 - 06/2023)
+- **Carbon Neutral Technology Innovation Class** (Honours Programme), Institute of New Energy and Low-Carbon Technology, Sichuan University, P.R. China (06/2020 - 06/2023)
 
 # Research Experiences
 
+- **Prof. Mengru Wang's Research Group**, Earth Systems and Global Change Group, Wageningen University & Research, Netherlands (09/2025 - Present)
+
+  > Modeling the yields of four major crops worldwide (maize, soybean, wheat, and rice). Our main focus is on the combined effects of irrigation and nitrogen fertilizer inputs.
+  >
+  > The project is currently in progress.
+  
+- **Prof. Wouter Peters's Research Group**, Meteorology and Air Quality Group, Wageningen University & Research, Netherlands (02/2025 - 09/2025)
+
+  > Prof. Wouter Peters and Dr. Auke van der Woude jointly supervised my master’s thesis project. We developed a system to evaluate the performance of atmospheric CO₂ inversion systems under extreme climate scenarios such as droughts.
+  
 - **Prof. Baicang Liu's Research Group**, College of Architecture and Environment, Institute of New Energy and Low-Carbon Technology, Sichuan University, P.R. China (09/2020 - present)
 
   > During my undergraduate studies, under the supervision of Prof. <a href="https://scholar.google.ca/citations?user=jDVoLL4AAAAJ&hl=en" target="_blank">Baicang Liu</a> (Sichuan University, China), I participated in research related to carbon neutral technology (on the topic of water treatment & environmental modeling).
@@ -39,5 +49,5 @@ redirect_from:
   College-level Project, Project ID: C2021118074 (**Participant**, Responsible for theoretical calculations and experiments, 12/2020 - 12/2021)
 
 # Research Skills
-- **Programming Language**: Python, Julia, Full Stack Web Development (HTML, JavaScript, CSS), MATLAB, R, C, C++
-- **Research Tool**: Linux, $\LaTeX$, Adobe Illustrator, Adobe Premiere Pro
+- **Programming Language**: Python, R, Julia, C, C++, Full Stack Web Development (HTML, JavaScript, CSS), MATLAB
+- **Research Tool**: Linux, $\LaTeX$, Git, Adobe Illustrator, Adobe Premiere Pro
