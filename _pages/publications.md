@@ -8,6 +8,12 @@ author_profile: false
 
 \* Corresponding author
 
+# 2026
+
+<ol reversed start=7>
+<li>Guijing Chen; <b>Zhaoyang Song</b>; Xiaoqi Wang; Shengchi Bai; Yi Deng; Quanxun Liang; Songmiao Liang; Alberto Tiraferri; Baicang Liu*, <font color="#FF4858">Enhancing nanofiltration membranes performance by melamine modification for emergency treating deteriorated water quality in drinking water source</font>. <i>Journal of Membrane Science</i>, 2026. <a href="https://doi.org/10.1016/j.memsci.2026.125147" target="_blank">https://doi.org/10.1016/j.memsci.2026.125147</a></li>
+</ol>
+
 # 2025
 
 <ol reversed start=6>
@@ -20,6 +26,7 @@ author_profile: false
 <li>Guijing Chen; Xifan Li; Xin Li; <b>Zhaoyang Song</b>; Baicang Liu*, <font color="#FF4858">Active-passive synergistic alleviation of membrane scaling from groundwater by grafting charged positive monomers on the surface of nanofiltration membranes</font>. <i>Desalination</i>, 2024. <a href="https://doi.org/10.1016/j.desal.2024.118436" target="_blank">https://doi.org/10.1016/j.desal.2024.118436</a></li>
 <li>Shiyu Zhong; <b>Zhaoyang Song</b>; Wancen Xie*; Yujie Guo; Jingyu Shu; Xin Li; Guijing Chen; Xiaoyu Ren; Zicheng Wang; Xia Hao; Baicang Liu*, <font color="#FF4858">Solar-driven interfacial evaporation on balsa for shale gas wastewater treatment: Analysis of system efficiency and water safety</font>. <i>Chemical Engineering Journal</i>, 2024. <a href="https://doi.org/10.1016/j.cej.2024.154623" target="_blank">https://doi.org/10.1016/j.cej.2024.154623</a></li>
 </ol>
+
 # 2022
 
 <ol reversed start=3>
