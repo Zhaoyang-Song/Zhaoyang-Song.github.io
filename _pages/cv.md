@@ -26,7 +26,7 @@ redirect_from:
 
   > Prof. Wouter Peters and Dr. Auke van der Woude jointly supervised my master’s thesis project. We developed a system to evaluate the performance of atmospheric CO₂ inversion systems under extreme climate scenarios such as droughts.
   
-- **Prof. Baicang Liu's Research Group**, College of Architecture and Environment, Institute of New Energy and Low-Carbon Technology, Sichuan University, P.R. China (09/2020 - present)
+- **Prof. Baicang Liu's Research Group**, College of Architecture and Environment, Institute of New Energy and Low-Carbon Technology, Sichuan University, P.R. China (09/2020 - Present)
 
   > During my undergraduate studies, under the supervision of Prof. <a href="https://scholar.google.ca/citations?user=jDVoLL4AAAAJ&hl=en" target="_blank">Baicang Liu</a> (Sichuan University, China), I participated in research related to carbon neutral technology (on the topic of water treatment & environmental modeling).
   >
