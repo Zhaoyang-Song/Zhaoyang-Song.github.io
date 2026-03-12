@@ -10,7 +10,7 @@ redirect_from:
 
 # Education
 
-- **M.Sc.** in Environmental Sciences, Wageningen University & Research, Netherlands (02/2024 - present)
+- **M.Sc.** in Environmental Sciences, Wageningen University & Research, Netherlands (02/2024 - 01/2026)
 - **B.Sc.** in Physics, College of Physics, Sichuan University, P.R. China (09/2019 - 06/2023)
 - **Carbon Neutral Technology Innovation Class** (Honours Programme), Institute of New Energy and Low-Carbon Technology, Sichuan University, P.R. China (06/2020 - 06/2023)
 
@@ -18,9 +18,7 @@ redirect_from:
 
 - **Prof. Mengru Wang's Research Group**, Earth Systems and Global Change Group, Wageningen University & Research, Netherlands (09/2025 - Present)
 
-  > Modeling the yields of four major crops worldwide (maize, soybean, wheat, and rice). Our main focus is on the combined effects of irrigation and nitrogen fertilizer inputs.
-  >
-  > The project is currently in progress.
+  > We developed a modeling framework for global crop yield analysis of four major crops (maize, soybean, wheat, and rice). Using historical data, we quantified the combined effects of irrigation and nitrogen fertilizer inputs and extended the framework to project future yields under climate change.
   
 - **Prof. Wouter Peters's Research Group**, Meteorology and Air Quality Group, Wageningen University & Research, Netherlands (02/2025 - 09/2025)
 

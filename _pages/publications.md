@@ -10,7 +10,8 @@ author_profile: false
 
 # 2026
 
-<ol reversed start=7>
+<ol reversed start=8>
+<li>Guijing Chen; <b>Zhaoyang Song</b>; Wen Wen; Shengchi Bai; Xiaoqi Wang; Yuhua Bai*; Baicang Liu*, <font color="#FF4858">Enhanced ions selectivity and anti-scaling: Ridge-structured nanofiltration membranes for advanced drinking water treatment</font>. <i>Chemical Engineering Journal</i>, 2026. <a href="https://doi.org/10.1016/j.memsci.2026.125147" target="_blank">https://doi.org/10.1016/j.cej.2026.173535</a></li>
 <li>Guijing Chen; <b>Zhaoyang Song</b>; Xiaoqi Wang; Shengchi Bai; Yi Deng; Quanxun Liang; Songmiao Liang; Alberto Tiraferri; Baicang Liu*, <font color="#FF4858">Enhancing nanofiltration membranes performance by melamine modification for emergency treating deteriorated water quality in drinking water source</font>. <i>Journal of Membrane Science</i>, 2026. <a href="https://doi.org/10.1016/j.memsci.2026.125147" target="_blank">https://doi.org/10.1016/j.memsci.2026.125147</a></li>
 </ol>
 
